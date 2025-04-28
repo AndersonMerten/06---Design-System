@@ -1,0 +1,14 @@
+{
+  "trailingComma": "none",
+  "semi": false,
+  "singleQuote": true,
+  "plugins": ["prettier-plugin-mdx"],
+  "overrides": [
+    {
+      "files": "*.mdx",
+      "options": {
+        "parser": "mdx"
+      }
+    }
+  ]
+}
