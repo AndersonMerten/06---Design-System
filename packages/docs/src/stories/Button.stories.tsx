@@ -6,7 +6,7 @@ export default {
   title: "Form/Button",
   component: Button,
   args: {
-    children: "Enviar",
+    children: "Send",
     variant: "primary",
     size: "md",
     disabled: false,
