@@ -1,4 +1,4 @@
-import { space } from "@ignite-ui/tokens";
+import { space } from "@aim-ignite-ui/tokens";
 import { Meta } from "@storybook/react";
 import { TokensGrid } from "../../components/TokensGrid";
 

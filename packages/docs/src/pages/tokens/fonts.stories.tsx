@@ -1,4 +1,4 @@
-import { fonts } from "@ignite-ui/tokens";
+import { fonts } from "@aim-ignite-ui/tokens";
 import { Meta } from "@storybook/react";
 import { TokensGrid } from "../../components/TokensGrid";
 
