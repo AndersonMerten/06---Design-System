@@ -8,16 +8,15 @@ export const TextInputContainer = styled("div", {
   display: "flex",
   alignItems: "center",
 
-  variants:{
+  variants: {
     size: {
-      sm:{
+      sm: {
         padding: "$2 $3",
       },
-      md:{
+      md: {
         padding: "$3 $4",
-      }
-
-    }
+      },
+    },
   },
 
   "&:has(input:focus)": {
@@ -27,6 +26,10 @@ export const TextInputContainer = styled("div", {
   "&:has(input:disabled)": {
     opacity: 0.5,
     cursor: "not-allowed",
+  },
+
+  defaultVariants: {
+    size: "md",
   },
 });
 
@@ -57,8 +60,4 @@ export const Input = styled("input", {
   "&::placeholder": {
     color: "$gray400",
   },
-
-  defaultVariants: {
-    size: "md",
-  }
 });
